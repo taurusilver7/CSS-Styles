@@ -10,6 +10,7 @@ let score = 0;
 let qstnCounter = 0;
 let availQstns = [];
 
+
 let questions = [
     {
         question: 'What is ((2 + 27) * 15 - 421) * 2?',
@@ -115,7 +116,9 @@ choices.forEach(choice => {
 incrementScore = num => {
     score += num;
     scoreText.innerText = score
-}
+};
+
+
 
 startGame();
 
