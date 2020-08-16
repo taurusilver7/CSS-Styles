@@ -1,5 +1,4 @@
 
-
 // Budget Controller
 var budgetController = (function() {
 
