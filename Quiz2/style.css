@@ -13,6 +13,7 @@ body {
     box-shadow: 10px 15px 5px #ebebeb;
 }
 
+
 .grid h1 {
     font-family: sans-serif;
     background-color: #57636e;
@@ -63,16 +64,4 @@ body {
 #btn-0:focus, #btn-1:focus, #btn-2:focus, #btn-3:focus {
     outline: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
