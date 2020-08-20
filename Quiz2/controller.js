@@ -1,7 +1,7 @@
 
 /*
 1. All the scores of the Quiz programs are stored here.
-2. The Number of question in total the quiz program stored for the app are stored here. */
+2. The Number of question in total the quiz program stored for the app are stored here.*/
 
 function Quiz(qstn) {
     this.score = 0;
