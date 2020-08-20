@@ -6,7 +6,6 @@ Game rules:
 - But, if the player rolls a 1, all his round score gets lost. After that, it's the next player turn.
 - The player can choose to 'hold',  which means that his round score gets added to his global score. It's the next player's turn.
 - the first player to reach 100 points on Global score wins the game.
-
 */
 
 var scores, roundScore, activePlayer, dice, gamePlay;
@@ -54,7 +53,7 @@ function rollDice() {
             nextPlayer();
         }
     }
-}
+};
 
 function holdDice() {
     if (gamePlay) {
@@ -78,7 +77,7 @@ function holdDice() {
             nextPlayer();
         }
     }
-}
+};
     
 function newDice() {
     // Not only to be applied when pressed newGame button, but also to initiate at the beggining of the game.
@@ -104,4 +103,4 @@ function newDice() {
     document.querySelector('.player-0-panel').classList.remove('active');
 
     document.querySelector('.player-0-panel').classList.add('active');
-}
+};
