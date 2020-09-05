@@ -1,0 +1,97 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+img {
+	height: 100%;
+	width: 100%;
+}
+body {
+	background-color: rgb(0, 0, 0);
+	color: whitesmoke;
+}
+.container {
+	height: 100vh;
+	/* width: 100%; */
+	max-width: 1080px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container .col-left {
+	flex: 1;
+	padding: 20px;
+}
+.container .col-left h1 {
+	font-size: 80px;
+	position: relative;
+	color: transparent;
+	animation: text_revealing 0s ease forwards;
+	/* animation-delay: 1s; */
+	display: inline-block;
+	/* opacity: 0; */
+}
+.container .col-left h1:nth-child(1) {
+	animation-delay: 1s;
+}
+.container .col-left h1:nth-child(2) {
+	animation-delay: 2s;
+}
+.container .col-left h1:nth-child(3) {
+	animation-delay: 3s;
+}
+.container .col-left h1:nth-child(1) span {
+	animation-delay: .5s;
+}
+.container .col-left h1:nth-child(2) span {
+	/* animation-direction: reverse; */
+	animation-delay: 1.5s;
+}
+.container .col-left h1:nth-child(3) span {
+	animation-delay: 2.5s;
+}
+.container .col-left h1 span {
+	content: '';
+	position: absolute;
+	height: 100%;
+	width: 0;
+	left: 0;
+	top: 0;
+	background-color: crimson;
+	animation: revealing 1s ease forwards;
+	animation-delay: .5s;
+}
+.container .col-right {
+	flex: 1;
+	padding: 20px;
+}
+@keyframes text_revealing {
+	100% {
+		color: white;
+	}
+}
+@keyframes revealing {
+	50% {
+		width: 100%;
+		left: 0;
+	}
+	100% {
+		left: 100%;
+		width: 0%;
+	}
+}
+
+@media only screen and (max-width: 890px) {
+	.container {
+		flex-direction: column-reverse;
+	}
+	.container .col-right {
+		width: 300px;
+	}
+	.container .col-left h1 {
+		display: block;
+		width: fit-content;
+	}
+}
