@@ -1,5 +1,5 @@
-# A Portfolio project of a web develop
+# Portfolio
 
+## My portfolio designed my me to match my personality & specifications.
 
-This is a mini project and specially for the beginner.
-I created a responsive webpage with transititonal effects.
+### A mini project ndertaken to challenge myself, to see if i can pull it off. 
