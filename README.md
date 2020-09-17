@@ -8,7 +8,7 @@ Every folder is named after the project/ program undertaken.
   * Portfolio files
   * Webpage Effects
   * Games
-  * Personal projects>
+  * Personal projects
 
 
 ## Necessary softwares and libraries
