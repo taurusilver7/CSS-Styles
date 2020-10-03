@@ -5,6 +5,8 @@ Every folder is named after the project/ program undertaken.
 
 ## Contents of the repository
 
+[![](https://img.shields.io/badge/-Download%20Icon%20-0a0a0a.svg?style=flat&colorA=0a0a0a)](https://www.google.com)
+
   * Portfolio files
   * Webpage Effects
   * Games
